@@ -13,7 +13,7 @@ namespace Punch
             ServicesToRun = new ServiceBase[]
             {
                 new Punch()
-            };
+            }; 
             ServiceBase.Run(ServicesToRun);
         }
     }
